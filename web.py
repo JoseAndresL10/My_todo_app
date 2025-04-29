@@ -1,5 +1,6 @@
 import streamlit as st
 import functions
+st.set_page_config(layout="wide")
 
 todos = functions.get_todos()
 
